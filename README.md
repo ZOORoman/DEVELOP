@@ -1,4 +1,18 @@
 # SOFTWARE AREA
+
+
+
+
+
+
+
+# «ABAP» 
+**Ссылка на курс:** http://saptex.blogspot.com/p/abap.html
+
+**Знакомство с языком**
+
+
+
 # «Методы машинного обучения» 
 **Ссылка на курс:** https://github.com/ugapanyuk/ml_course
 
