@@ -20,8 +20,20 @@
     {{ else }}
         <p class="lead">Статей нет</p>
     {{ end }}
+
+    <div class="container">
+        <div class="cube">
+          <div class="side front">front</div>
+          <div class="side back">back</div>
+          <div class="side right">right</div>
+          <div class="side left">left</div>
+          <div class="side top">top</div>
+          <div class="side bottom">bottom</div>
+        </div>
+    </div>
+
 <p class="lead">
-    <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Добавить тему</a>
+    <a href="/create" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Добавить тему</a>
 </p>
 </main>
 {{ template "footer" }}

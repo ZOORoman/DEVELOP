@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba;
+}
+
+// Menu
+.navbar-brand img{
+    width: 100px;
+}
+
+.navbar{
+    &.navbar-dark {
+        background-color: teal;
+    }
+}
+
+.navbar-nav li{
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.2em !important;
+}
+// 
+
+// Main
+.carousel-inner {
+    height: 300px;
+}
+
+.carousel-inner img {
+    height: 100%;
+}
+
+@media (min-width: 1100px) {
+    .carousel-inner img {
+        width: 100%;
+    }
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-80%);
+    text-shadow: 1px 1px 10px #222;
+}
+@media (max-width: 450px) {
+    .carousel-caption .display-2 {
+        font-size: 3em;
+    }
+}
+//
+
+// Services
+.jumbotron {
+    padding: 1em;
+    border-radius: 0;
+    width: 95%;
+    margin: 1em;
+}
+
+.padding {
+    padding-bottom: 2em;
+}
+
+.alert {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
+.alert hr {
+    border-top: 2px solid red;
+    width: 50%;
+    margin-top: 0.3em;
+    margin-bottom: 1em;
+}
+
+.fa-code {color: red;}
+.fa-bold {color: orange}
+.fa-css3 {color: darkblue;}
+
+.fa-code, .fa-bold, .fa-css3 {
+    font-size: 5em;
+    margin-top: 1em;
+}
+//
+
+// Scorll img
+#fixed {
+    height: 400px;
+    border-top: 4px solid f0f0f0;
+    background: url("../img/main.png") no-repeat center center fixed;
+    background-blend-mode: multiply;
+    background-color: lightsalmon;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+//
+
+// Closed section
+#gifsbtn {
+    margin-bottom: 20px;
+}
+
+#gifs img {
+    max-width: 100px;
+    max-height: 200px;
+    margin-bottom: 20px;
+}
+//
+
+// Contacts
+.social a{
+    font-size: 4em;
+    padding: 20px;
+}
+.fa-twitter {color: lightskyblue;}
+.fa-instagram {color: orange}
+.fa-vk  {color: steelblue;}
+.fa-php {color: tomato}
+
+.fa-twitter:hover, .fa-instagram:hover, .fa-vk:hover,  .fa-php:hover {
+    color: lightslategray;
+}
+
+// Cards
+@media (max-widch: 750px) {
+    .display-4 {
+        font-size: 1.5em;
+    }
+}
+//
+
+// Footer
+footer {
+    background-color:navy;
+    padding-top: 20px;
+    border-top: 4px solid yellow;
+    color: white;
+}
+//
